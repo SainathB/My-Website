@@ -1,0 +1,62 @@
+#container
+{
+	height:231px;
+	width:432px;
+	float: right;
+	margin-top: 162px;
+	margin-right: 60px;
+
+}
+.sites
+{
+	height: 100px;
+	width:200px;
+	float: right;
+	margin-bottom: 10px;
+	text-align: right;
+	text-transform: uppercase;
+	
+	
+	
+	text-decoration: none;
+
+}
+a
+{
+	color: rgb(136, 127, 127);
+	font-family: Helvetica;
+	font-weight: lighter;
+	font-size:15px;
+	text-decoration: none;
+}
+a:hover
+{
+	color:rgb(162, 175, 8);
+
+}
+.name
+{
+	text-align: right;
+	font-family: Courier;
+	font-size:50px;
+	font-weight:lighter;
+	color: #3DDB36;
+
+}
+.description
+{
+	text-align: right;
+	font-family: Courier;
+	font-size: 25px;
+	font-weight: lighter;
+	color: #E6661F;
+}
+
+.background
+{
+	background-color: #113010;
+}
+.twitter-follow-button
+{
+	margin-left: 380px;
+}
