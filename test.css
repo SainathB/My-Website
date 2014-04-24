@@ -5,29 +5,11 @@
 {
 	height:231px;
 	width:432px;
-	position :relative;
-	top:60px;
-	left:900px;
-	
+	float: right;
 	margin-top: 162px;
 	margin-right: 60px;
-	animation:mymove 5s 1;
-	-webkit-animation:mymove 5s 1;
 
 }
-@-webkit-keyframes mymove
-{
-	0%
-	{
-		left:0px;
-	}
-	100%
-	{
-		left:900px;
-	}
-}
-
-
 .sites
 {
 	height: 100px;
@@ -42,6 +24,7 @@
 	text-decoration: none;
 
 }
+
 
 a
 {
@@ -111,8 +94,6 @@ a:hover
 #egg {
     font-size: 40px; 
     width: 3em;
-    
-   
     height: 4em;
     position: absolute;
     left: 599px;
@@ -124,7 +105,7 @@ a:hover
     border-top-right-radius: 50% 60%;
     border-bottom-left-radius: 50% 40%;
     border-bottom-right-radius: 50% 40%;
-    background: #FFEB0A -webkit-radial-gradient(left top, rgba(255, 255, 255, .8), rgba(255, 255, 255, .1));
+    background: #f2b679 -webkit-radial-gradient(left top, rgba(255, 255, 255, .8), rgba(255, 255, 255, .1));
     -webkit-transform-origin: center 80%;
     -webkit-animation: shake 1s infinite alternate;
     -webkit-transition: opacity 3s ease;
