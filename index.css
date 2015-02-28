@@ -1,6 +1,3 @@
-
-
-
 #container
 {
 	height:231px;
@@ -45,7 +42,7 @@
 
 a
 {
-	color: rgb(136, 127, 127);
+	color: rgb(221, 223, 220);
 	font-family: Helvetica;
 	font-weight: lighter;
 	font-size:15px;
@@ -111,8 +108,6 @@ a:hover
 #egg {
     font-size: 40px; 
     width: 3em;
-    
-   
     height: 4em;
     position: absolute;
     left: 599px;
@@ -151,4 +146,24 @@ a:hover
     100% {
         -webkit-transform: rotate(0);
     }
+}
+#quote{
+	position: absolute;
+	top: 550px;
+	height: 100px;
+	width: 100%;
+	background-color: black;
+	font-family: "Courier";
+	font-size: 30px;
+	text-align: center;
+	color: rgb(244, 250, 13);
+	border-style: dashed;
+	border-width: medium;
+	border-radius: 10px; 
+	border-color: white;
+}
+#quotetext{
+	position: absolute;
+	top: 30px;
+	left:70px;
 }
